@@ -1,0 +1,51 @@
+.container{
+    font-size: 30px;
+    width: 97vw;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.d-flex{
+ display: flex;  
+ flex-wrap: wrap; 
+}
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.mt-5{
+    margin-top: 25px;
+}
+.card{
+    border:2px solid #aaa;
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+}
+.card-body{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-header{
+    margin: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222;
+}
+.card-footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+    .card{
+        width: 90%;
+    }
+  }
